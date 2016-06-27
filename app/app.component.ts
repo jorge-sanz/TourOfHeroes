@@ -7,6 +7,12 @@ export class Hero {
   selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
+    <h2>My Heroes</h2>
+    <ul class="heroes">
+      <li>
+        <!-- each hero goes here -->
+      </li>
+    </ul>
     <h2>{{hero.name}} details!</h2>
     <div><label>id: </label>{{hero.id}}</div>
     <div>
@@ -21,6 +27,7 @@ export class AppComponent {
     id: 1,
     name: 'Windstorm' 
   };
+  public heroes = HEROES;
 }
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
