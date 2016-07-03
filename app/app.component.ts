@@ -13,7 +13,7 @@ import { HeroService }     from './hero.service';
     `,
     directives: [ROUTER_DIRECTIVES],
     providers: [
-    HeroService
+        HeroService
     ]
 })
 export class AppComponent {
