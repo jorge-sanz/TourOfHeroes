@@ -18,3 +18,10 @@ To run the app:
 ```
 npm start
 ```
+
+## More
+This is the roadmap I have made to learn:
+
+1. [Typescript quick start tutorial](https://www.typescriptlang.org/docs/tutorial.html)
+2. [Angular 2 quick start tutorial](https://angular.io/docs/ts/latest/quickstart.html)
+3. [Tour of Heroes tutorial](https://angular.io/docs/ts/latest/tutorial/)
